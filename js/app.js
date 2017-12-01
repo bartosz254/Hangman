@@ -1,3 +1,4 @@
+
 var app = angular.module("HangmanApp",[]);
 app.controller("GameController",['$scope','$timeout',function($scope,$timeout){
 
