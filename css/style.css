@@ -1,0 +1,20 @@
+body {
+  padding-top: 20px;
+  background: #ADD8E6;
+}
+.incortect{
+  font-size: 42px;
+  float: left;
+}
+.correct{
+  font-size: 42px;
+  float: right;
+}
+.middle{
+  font-size: 20px;
+  margin: 0 auto;
+}
+.middle button{
+   cursor: pointer;
+   margin: 10px;
+}
