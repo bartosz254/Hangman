@@ -61,10 +61,12 @@ app.controller("GameController",['$scope','$timeout',function($scope,$timeout){
         }
       }
      if (correct){
+
        $scope.correctLettersChosen.push($scope.input.letter.toLowerCase());
+
      } else {
         --$scope.guesses;
-
+        
         $scope.inCorrectLettersChosen.push($scope.input.letter.toLowerCase());
      }
 
